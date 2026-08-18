@@ -51,4 +51,4 @@ def test_session_storage_auth():
     # 9. Проверить, что URL разные
     assert url1 != url2
 
-    driver.quit()
+    driver.quit() # Комментарии излишни
